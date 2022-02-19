@@ -30,9 +30,23 @@ a{
     margin: auto;
 }
 
+.w-60{
+    width: 60%;
+    margin: auto;
+}
+
 .w-70{
     width: 70%;
     margin: auto;
+}
+
+.w30{
+    width: 30%;
+    margin: auto;
+}
+
+.w-50{
+    width: 50%;
 }
 
 .w-90{
@@ -135,22 +149,118 @@ nav{
 .content-bottom{
     justify-content: space-between;
 }
+/* SECTION-SECOND */
+#section-second{
+    background-color: #9692e6;
+    margin-top: 30px;
+}
+
+#section-second > div:first-child{
+    padding: 50px;
+    column-gap: 20px;
+}
+
+.content img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.binotto-board > *{
+    padding-bottom: 30px;
+}
+
+.toto-board{
+    text-align: center;
+}
+
+.content-toto{
+    padding: 20px;
+}
+
+.toto-board{
+    align-self: flex-end;
+}
+
+.toto-board div:first-child{
+    background-color: white;
+    border-radius: 10px;
+}
+/* SECTION THIRD */
+.text{
+    text-align: center;
+}
+
+.text > *{
+    padding-bottom: 10px;
+}
+
+.content-photo{
+    width: 40%;
+}
+
+.content-photo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.charles-board{
+    background-color: #ffbfbf;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.charles-board > *{
+    padding: 20px;
+}
+
+#section-third > div:first-child{
+    padding-top: 50px;
+}
+
+.carlos-board{
+    background-color: #feddaa;
+}
+
+.antonio-board{
+    background-color: #b2e9ca;
+}
+/* SECTION fourth  */
+
+#section-fourth{
+    background-color: #9692e6;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container-section-fourth{
+    margin-top: 50px;
+}
+
+.container-section-fourth{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+/* SECTION FIFth */
+
+.about-us{
+    width: 70%;
+}
+
+.about-us > *{
+    margin-bottom: 20px;
+}
+
+.board-horner{
+    width: 30%;
+}
+#section-fifth > div:first-child{
+    padding-top: 50px;
+    column-gap: 30px;
+}
 
 
 
 
 
 /************* FOOTER  ************/
-.lucio{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.lucio .lucetti:first-child{
-    grid-column: 1/3;
-}
-
-.lucetti{
-    background-color: red;
-}
