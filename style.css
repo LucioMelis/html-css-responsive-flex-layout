@@ -230,6 +230,7 @@ nav{
     background-color: #9692e6;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .container-section-fourth{
@@ -257,10 +258,37 @@ nav{
 #section-fifth > div:first-child{
     padding-top: 50px;
     column-gap: 30px;
+    padding-bottom: 50px;
 }
 
+/* SECTION SIXTH */
+#section-sixth{
+    background-color: #9692e6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
-
-
+.container-section-sixth{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
 
 /************* FOOTER  ************/
+
+#section-footer{
+    background-color: #333333;
+    color: white;
+}
+
+.container-section{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container-section > *{
+    padding-bottom: 30px;
+}
+
